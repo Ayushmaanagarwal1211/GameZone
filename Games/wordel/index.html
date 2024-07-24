@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Wordel:Random Words That Speak</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+    <link rel="stylesheet" href="wordel.css">
+    <script src="wordel.js"></script>
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <h3 style="text-align: center; font-size:large;">HOW TO PLAY</h3>
+        <ul style="text-align: left;">
+            <li>Guess the WORDLE in six tries.</li>
+            <li>Each guess must be a valid five-letter word. Hit the enter button to submit.</li>
+            <li>After each guess, the color of the tiles will change to show how close your guess was to the word.</li>
+        </ul>
+        <hr>
+        <img src="wordel_inst.jpg" alt="" style="max-width:246px;">
+        <ul style="text-align: left;">
+            <li> The letter M is in the word and in the correct spot.</li>
+            <li>The letter L is in the word but in the wrong spot.</li>
+            <li>The letter I, D and S is not in the word in any spot.</li>
+        </ul>
+        <hr>
+        <p style="text-align: justify; max-width: 90%;">A new WORDLE will be available everytime you refresh the Page!
+        </p>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <h1 id="title" onclick="openNav()" style="cursor: pointer;">Wordel</h1>
+
+    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+    <div id="main">
+        <div id="board">
+        </div>
+
+        <h1 id="answer"></h1>
+    </div>
+</body>
+
+</html>
